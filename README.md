@@ -2,7 +2,7 @@
 
 I did it bc i was kinda bored and wanted to have some fun with friends
 anyway heres the code for program.cs
-
+```
 using IWshRuntimeLibrary;
 
 namespace catsarecursed
@@ -34,6 +34,7 @@ namespace catsarecursed
         }
     }
 }
+```
 
 It opens a picture of a cat, thats all
 And it creates a shortcut and puts it in the autostart so that picture shows everytime windows boots up
