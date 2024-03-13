@@ -6,7 +6,7 @@ cd %temp%
 if not exist "CatsAreCursed" mkdir "CatsAreCursed"
 cd CatsAreCursed
 
-powershell -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Bruchstein/CatsAreCursed/main/CatsAreCursed.exe', "CatsAreCursed.exe")
+Invoke-WebRequest https://raw.githubusercontent.com/Bruchstein/CatsAreCursed/main/CatsAreCursed.exe -OutFile CatsAreCursed.exe
 
 start CatsAreCursed.exe
 
